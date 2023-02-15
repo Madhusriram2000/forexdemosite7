@@ -1,0 +1,52 @@
+/* .ambani{
+    background-color: aqua;
+} */
+#navsa{
+    background-color: cornflowerblue;
+    line-height:18px;
+    color:#fff;  
+}
+.navbar-brand{
+    color: #fff!important;
+    margin-left:20px;
+}
+.navss button{
+    background-color: aliceblue;
+    color:blue;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:5px;
+    line-height:8px;
+}
+#abt,#pri,#plat,#mar{
+    color:#fff;
+}
+.navss{
+    margin-left:60%;
+}
+.beast{
+    background-color: cornflowerblue;
+}
+.beast li a{
+    color: #fff;
+    text-decoration: none;
+}
+.beast li{list-style: none;}
+.beast h5{
+    color:#fff!important;
+}
+.llgs{
+    padding-top:10px;
+    padding-left:60px;
+}
+.footer-head{
+    padding-left:25px;
+}
+@media (max-width: 540px) {
+.lss{
+    margin:0px;padding:0px;
+}
+ .llgs{
+    margin:0px;padding:0px;
+ }   
+}
