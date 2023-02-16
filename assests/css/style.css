@@ -11,7 +11,7 @@
     margin-left:20px;
 }
 .navss button{
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     color:#4d71d9;
     padding-left:15px;
     padding-right:15px;
@@ -67,16 +67,16 @@
 }
 .trrade button:hover{
     background-color: #fff;
-    color: blue;
+    color: #0000ff;
 }
 .getstar{
-    color: blue;
+    color: #0000ff;
 }
 .cone{
     height:40px;
     float:right;
 }
-.four-rec{
+/* .four-rec{
     background-color: #4d71d9;
 }
 .rec-1{
@@ -124,6 +124,93 @@
     position: relative;
     left: 1037px;
     top: -637px;
+} */
+.pentimg1,.pentimg2,.pentimg3,.pentimg4{
+    height: 200px;
+    width: 188px;
+}
+.uparrowimg,.downarrowimg,.uparrowimg2{
+    height: 60px;  
+}
+/* .pentimg1{
+    position: relative;
+} */
+.pent1{
+    position:relative;
+}
+.pent1word{
+    position: absolute;
+    bottom: 27%;
+    color: #4d71d9;
+}
+.pent1word p{
+    font-size:10px;
+}
+
+.uparrowimg{
+    margin-top:56%;
+    margin-left: -22%;
+}
+.pentimg2{
+    /* position: relative; */
+    /* top: 63%!important; */
+    margin-top: 45%;
+    margin-left: -45%;
+}
+.pent2{
+    position: relative;
+}
+.pent2word{
+    position: absolute;
+    bottom: 16%;
+    right: 43%;
+    color: #4d71d9;
+}
+.pent2word p{
+    font-size:10px;
+}
+.downarrowimg{
+    margin-top: 210%;
+    margin-left: -55%;
+}
+.pentimg3{
+    margin-top: 11%;
+    margin-left: -71%;
+}
+.pent3{
+    position: relative;
+}
+.pent3word{
+    position:absolute;
+    bottom: 24%;
+    /* left: -63%; */
+    right: 43%;
+    left: -27%;
+    color: #4d71d9;
+}
+.pent3word p{
+    font-size:10px;
+}
+.uparrowimg2{
+    margin-top: 75%;
+    margin-left: -90%;
+}
+.pentimg4{
+    margin-left: -94%;
+    margin-top: 50%
+}
+.pent4{
+    position: relative;
+}
+.pent4word p{
+    font-size: 10px;
+}
+.pent4word{
+    color: #4d71d9;
+    position:absolute;
+    bottom: 18%;
+    left: -42%;
+    right: 50%;
 }
 .magi button{
     background-color:rgb(0, 0, 87);
@@ -133,7 +220,7 @@
     border-radius:20px;
 }
 .magi button:hover{
-    color: blue;
+    color: #0000ff;
     background-color: #fff;
 }
 .sect-2{
@@ -165,7 +252,7 @@
 }
 .vecc2{
     position: absolute;
-    left: 42%;
+    left: 44.5%;
     top: 20%;
 }
 .cirle3{
@@ -173,7 +260,7 @@
 }
 .vecc3{
     position: absolute;
-    left: 42%;
+    left: 43.5%;
     top: 22%;
 }
 .par1 h6{
@@ -198,6 +285,7 @@
     padding-right: 31%;
 }
 .cardsx{
+    height:415px;
     width:18rem;
 }
 .cardsx:hover{
@@ -206,12 +294,26 @@
 }
 .cardsx h4{color: #4d71d9;}
 .cardsx h4:hover{color: #fff;}
+.carddimg{
+    height:415px;
+}
 .humahand{
     height:350px;
 }
 .low{
-    color: blue;
+    color: #0000ff;
 }
+.faqimg{
+    height: 450px;
+}
+.faqas{
+    color: #0000ff;
+}
+.accordion-item{
+    border-radius:4px!important;
+    border:2px solid #4d71d9!important;
+}
+
 
 
 
@@ -230,9 +332,9 @@
  .llgs{
     margin:0px;padding:0px;
  }  
- .sec-1,.sect-2{
+ /* .sec-1,.sect-2{
     background-size:cover;
- }
+ } */
  .trrade{
     margin:0px;padding:0px;
  } 
@@ -242,17 +344,15 @@
  .trrade p{font-size:15px;}
  .realme{
     margin:0px;padding:0px;
-    height:150px;
-    width:150px;
+    height:230px;
  }
  .pinpong{
     margin:0px;padding:0px;
-    height:150px;
-    width:150px;
+    height:250px;
  }
- .rec-1,.rec-2,.rec-3,.rec-4,.upar,.upar2,.downar{
+ /* .rec-1,.rec-2,.rec-3,.rec-4,.upar,.upar2,.downar{
     width:0px;height:0px;
- }
+ } */
  .sect-3{
     background-size:auto;
  }
@@ -262,10 +362,68 @@
  }
  .handmobile{
     height:250px;
-    width:200px;
  }
- .vecc1,.vecc2,.vecc3{
+ .vecc1{
     position: absolute;
     left:39%;top:17%;
  }
+ .vecc2{
+    position: absolute;
+    left:42.5%;top:18%;
+ }
+ .vecc3{
+    position: absolute;
+    left:41%;top:18%;
+ }
+ .faqimg,.humahand{
+    height:255px;
+ }
+ .uparrowimg,.uparrowimg2,.downarrowimg{
+    height:0px;width:0px;
+ }
+ .pentimg1{
+    position: relative;
+ }
+ .pent1word{
+    position: absolute;
+    top: 26%;
+    left: 26%;
+    right: 23%;
+ }
+ .pent2{
+    position: relative;
+    bottom: 77%;
+    left: 22%;
+ }
+ .pent3{
+    position: relative;
+    top: -363%;
+    left: 37%;
+ }
+ .pent3word{
+    left: -20%;
+    right: 50%;
+    position: absolute;
+    top: 37%;
+ }
+ .pent4{
+    position: relative;
+    bottom: 339%;
+    left: 49%;
+ }
+ .pent4word{
+    position: absolute;
+    top: 59%;
+    right: 63%;
+    left: -31%;
+ }
+ .spacex{
+    height:930px;
+ }
+ .cardsx{
+   margin-bottom:15px;
+ }
+ /* .pentimg3{
+    margin-top:55%;
+ } */
 }
