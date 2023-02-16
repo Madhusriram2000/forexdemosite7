@@ -314,9 +314,48 @@
     border:2px solid #4d71d9!important;
 }
 
+/* about page */
 
-
-
+.abbtrow h1{
+color: #00009b;
+}
+.tenta{
+    padding-top:5%;
+}
+.hhh,.globe,.run{
+    height:350px;
+}
+.glogg h1{
+    color: #00009b;
+}
+.cirhalf{
+    height:55px;
+    transform: rotate(180deg);
+}
+.bggm{
+    background-image:url("../Aboutpage/Rectangle34320.png");
+    background-size: cover;
+}
+.bggm h1{color: #f0f8ff;}
+.bggm p{color: #f0f8ff;}
+.roundd h1{color: #00009b;}
+.car{
+    height:400px;
+    background-image:url("../Aboutpage/tfv.png");
+    background-size: cover;
+}
+.cad1{
+    margin-top:80px;
+    width: 60%;
+    background-color:#0000ff;
+    border:1px solid #0000ff;
+    border-radius:10px;
+}
+#b1{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
 
 
 
@@ -426,4 +465,6 @@
  /* .pentimg3{
     margin-top:55%;
  } */
+
+ /* about page */
 }
