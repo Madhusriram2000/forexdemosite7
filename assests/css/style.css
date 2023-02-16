@@ -152,10 +152,37 @@
     height:40px;
     float:left;
 }
+.cirle{
+    position: relative;
+}
+.vecc1{
+    position: absolute;
+    left: 41%;
+    top: 18%;
+}
+.cirle2{
+    position: relative;
+}
+.vecc2{
+    position: absolute;
+    left: 42%;
+    top: 20%;
+}
+.cirle3{
+    position: relative;
+}
+.vecc3{
+    position: absolute;
+    left: 42%;
+    top: 22%;
+}
+.par1 h6{
+    color: #4d71d9;
+}
 
 .sect-3{
     background-image:url("../Homepage/Rectangle14.png");
-    height: 425px;
+    height:380px;
     background-size:100%;
     background-repeat: no-repeat;
 }
@@ -170,7 +197,21 @@
     padding-top: 20%;
     padding-right: 31%;
 }
-
+.cardsx{
+    width:18rem;
+}
+.cardsx:hover{
+    background-color: #4d71d9;
+    color: #fff!important;
+}
+.cardsx h4{color: #4d71d9;}
+.cardsx h4:hover{color: #fff;}
+.humahand{
+    height:350px;
+}
+.low{
+    color: blue;
+}
 
 
 
@@ -222,5 +263,9 @@
  .handmobile{
     height:250px;
     width:200px;
+ }
+ .vecc1,.vecc2,.vecc3{
+    position: absolute;
+    left:39%;top:17%;
  }
 }
