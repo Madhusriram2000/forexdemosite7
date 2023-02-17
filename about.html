@@ -217,14 +217,21 @@
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 text-center mails">
-                        <div>
-                            <div class="input-group  mt-5 mb-4 nms">
-                                <span class="input-group-text">Name and Mail id</span>
-                                <input type="text" aria-label="First name" class="form-control ml-3">
-                                <input type="text" aria-label="Last name" class="form-control">
+                        <!-- <div>
+                            <div class="input-group  mt-5 mb-4 nms row">
+                                <input type="text" aria-label="First name" class="form-control ml-3 ">
+                                <input type="text" aria-label="Last name" class="form-control ">
                             </div>
-                        </div>
-                        <div class="form-floating tdx">
+                        </div> -->
+                        <form class="row g-3 mt-4">
+                            <div class="col-md-4">
+                              <input type="text" class="form-control" id="validationDefault01" value="" required>
+                            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div class="col-md-4">
+                              <input type="text" class="form-control" id="validationDefault02" value="" required>
+                            </div>
+                        </form>
+                        <div class="form-floating tdx mt-3">
                             <textarea class="form-control" placeholder="" id="floatingTextarea2"
                                 style="height:300px;"></textarea>
                             <label for="floatingTextarea2"></label>
