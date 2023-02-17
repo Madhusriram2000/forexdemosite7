@@ -594,7 +594,47 @@
     color: #f0f8ff !important;
     border-radius: 0px !important;
 }
-
+.ig1a{
+    height:128px;
+}
+.ig1cash{
+    height:88px;
+}
+.ig1swap{
+    margin-top:25px;
+    height:70px;
+}
+.ig1time{
+    margin-top:25px;
+    height:80px;
+}
+.card{
+    width:18rem;
+    border-radius:15px!important;
+}
+.card-header{
+    border-radius:15px!important;
+    background-color: #00009b!important;
+    color: #f0f8ff!important;
+}
+.gtta{
+    margin-top: 10px;
+    background-color: #00009b !important;
+    color: #f0f8ff !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gtta1{
+    margin-top: 10px;
+    background-color: #f0f8ff !important;
+    color: #00009b !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.igh{
+    background-color:#4d71d9!important;
+}
+.cardtwo p{color: #f0f8ff}
 /* platform page */
 
 .divya {
@@ -615,6 +655,8 @@
     float: right;
     /* transform: rotate(90deg); */
 }
+
+
 
 
 
