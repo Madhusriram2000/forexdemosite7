@@ -20,6 +20,11 @@
     }
 }
 
+.nav-link-new {
+    color: #000000 !important;
+    font-weight: 15px;
+}
+
 
 #navsa {
     background-color: #4d71d9;
@@ -504,71 +509,6 @@
     color: #00009b;
 }
 
-.gr166 {
-    height: 510px;
-    position: relative;
-}
-
-.pmindia {
-    position: absolute;
-    top: 125%;
-    left: 10%;
-}
-
-.pmindia h1 {
-    color: #f0f8ff;
-}
-
-.pmindia h3 {
-    color: #000000;
-}
-
-.gts {
-    margin-top: 10px;
-    background-color: #00009b !important;
-    color: #f0f8ff !important;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.gr168 {
-    height: 510px;
-    position: relative;
-}
-
-.pmindia2 {
-    position: absolute;
-    left: 43%;
-    /* bottom: -110%; */
-    top: 124%;
-}
-
-.pmindia2 h1 {
-    color: #f0f8ff;
-}
-
-.pmindia2 h3 {
-    color: #f0f8ff;
-}
-
-.gts2 {
-    margin-top: 10px;
-    background-color: #f0f8ff !important;
-    color: #00009b !important;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.pmindia3 {
-    position: absolute;
-    top: 125%;
-    left: 77%;
-}
-
-.pmindia3 h1 {
-    color: #f0f8ff;
-}
-
 .anirudh {
     background-image: url("../Pricingpage/Rectangle34337.png");
     background-size: cover;
@@ -594,47 +534,62 @@
     color: #f0f8ff !important;
     border-radius: 0px !important;
 }
-.ig1a{
-    height:128px;
+
+.ig1a {
+    height: 128px;
 }
-.ig1cash{
-    height:88px;
+
+.ig1cash {
+    height: 88px;
 }
-.ig1swap{
-    margin-top:25px;
-    height:70px;
+
+.ig1swap {
+    margin-top: 25px;
+    height: 70px;
 }
-.ig1time{
-    margin-top:25px;
-    height:80px;
+
+.ig1time {
+    margin-top: 25px;
+    height: 80px;
 }
-.card{
-    width:18rem;
-    border-radius:15px!important;
+
+.card {
+    width: 18rem;
+    border-radius: 15px !important;
 }
-.card-header{
-    border-radius:15px!important;
-    background-color: #00009b!important;
-    color: #f0f8ff!important;
+
+.card-header {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    border-radius: 15px !important;
+    background-color: #00009b !important;
+    color: #f0f8ff !important;
 }
-.gtta{
+
+.gtta {
     margin-top: 10px;
     background-color: #00009b !important;
     color: #f0f8ff !important;
     padding-left: 10px;
     padding-right: 10px;
 }
-.gtta1{
+
+.gtta1 {
     margin-top: 10px;
     background-color: #f0f8ff !important;
     color: #00009b !important;
     padding-left: 10px;
     padding-right: 10px;
 }
-.igh{
-    background-color:#4d71d9!important;
+
+.cardtwo {
+    background-color: #4d71d9 !important;
 }
-.cardtwo p{color: #f0f8ff}
+
+.cardtwo p {
+    color: #f0f8ff
+}
+
 /* platform page */
 
 .divya {
@@ -654,6 +609,51 @@
     height: 65px;
     float: right;
     /* transform: rotate(90deg); */
+}
+
+.fa-regular {
+    height: 45px;
+    color: #00009b !important;
+}
+
+.grp161 {
+    height: 450px;
+}
+
+.chilla {
+    margin-top: 45%;
+}
+
+.maas {
+    height: 520px;
+    background-image: url("../Homepage/Rectangle13.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mean {
+    height: 350px;
+}
+
+.airam h2 {
+    color: #4d71d9;
+}
+
+.airam button {
+    background-color: #00009b;
+    color: #f0f8ff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cone4a {
+    height:30px;
+    float: right;
+}
+
+.cone2a {
+    height:50px;
+    float: right;
 }
 
 
@@ -749,7 +749,7 @@
     }
 
     .spacex {
-        height:900px !important;
+        height: 900px !important;
     }
 
     .pent1 {
@@ -788,12 +788,14 @@
         right: 32%;
         left: 32%;
     }
-    .pent4{
+
+    .pent4 {
         position: relative;
         top: 2%;
         left: 0%;
     }
-    .pent4word{
+
+    .pent4word {
         position: absolute;
         top: 28%;
         right: 32%;
@@ -836,7 +838,9 @@
     .cone4,
     .cirhalf,
     .cone6,
-    .cirhalf2 {
+    .cirhalf2,
+    .cone4a,
+    .cone2a {
         height: 0px;
         width: 0px;
     }
@@ -850,24 +854,7 @@
         position: relative;
     }
 
-    .pmindia {
-        position: absolute;
-        top: 73%;
-        left: 27%;
-    }
 
-    .pmindia2 {
-        margin-top: 10px;
-        position: absolute;
-        top: 147%;
-        left: 31%;
-    }
-
-    .pmindia3 {
-        position: absolute;
-        top: 226%;
-        left: 28%;
-    }
 
 
     /* paltform page */
