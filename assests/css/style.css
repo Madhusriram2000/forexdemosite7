@@ -519,6 +519,7 @@
 .condit {
     background-image: url("../Pricingpage/Rectangle12.png");
     background-size: cover;
+    padding-bottom:110px;
 }
 
 .condit h1 {
