@@ -31,8 +31,41 @@
     </div>
     <p>We provide our clients with a wide range of desktop, web and mobile trading platforms including<br> FxPro platform, MetaTrader 4, MetaTrader 5 and cTrader. </p>
 </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="rnd1">
+                <p class="outrnd"><p class="inrund"></p></p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <footer></footer>
 <script src="./assests/js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.2.min.js"
+    integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        setTimeout(function () {
+            $("#hom").addClass("nav-link-new");
+        }, 500);
+    })
+</script>
+<script>
+    $(function () {
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 50) {
+                $(".navbar").removeClass("navbar-bg");
+                $(".navbar").addClass("navbar-bg2").style.top = "0";
+            } else {
+                $(".navbar").removeClass("navbar-bg2");
+                $(".navbar").addClass("navbar-bg").style.top = "-50px";
+            }
+        });
+    });
+</script>
 </body>
 </html>

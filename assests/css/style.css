@@ -1,6 +1,26 @@
-/* .ambani{
-    background-color: aqua;
-} */
+.navbar-bg {
+    background-color: #4d71d9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar-bg2 {
+    background-color: #4d71d9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .2s ease-in-out;
+    animation: smoothScroll 1s forwards;
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
 #navsa {
     background-color: #4d71d9;
     line-height: 18px;
@@ -105,55 +125,6 @@
     float: right;
 }
 
-/* .four-rec{
-    background-color: #4d71d9;
-}
-.rec-1{
-    height: 200px;
-    width: 188px;
-    position: relative;
-    left: 85px;
-    top: 20px;
-}
-.upar{
-    position: relative;
-    left: 294px;
-    top: -116px;
-    height: 60px;
-}
-.rec-2{
-    height: 200px;
-    width: 188px;
-    position: relative;
-    left:400px;
-    top: -122px;
-}
-.downar{
-    height:60px;
-    position: relative;
-    left:603px;
-    top: -194px;
-}
-.rec-3{
-    height: 200px;
-    width: 188px;
-    position: relative;
-    left: 708px;
-    top: -463px;
-}
-.upar2{
-    position: relative;
-    left: 924px;
-    top: -616px;
-    height: 60px;
-}
-.rec-4{
-    height: 200px;
-    width: 188px;
-    position: relative;
-    left: 1037px;
-    top: -637px;
-} */
 .pentimg1,
 .pentimg2,
 .pentimg3,
@@ -185,26 +156,22 @@
     font-size: 10px;
 }
 
-.uparrowimg {
-    margin-top: 56%;
-    margin-left: -22%;
-}
-
-.pentimg2 {
-    /* position: relative; */
-    /* top: 63%!important; */
-    margin-top: 45%;
-    margin-left: -45%;
+.uparrow {
+    position: relative;
+    top: 18%;
+    left: -19%;
 }
 
 .pent2 {
     position: relative;
+    top: 29%;
+    left: -21%;
 }
 
 .pent2word {
     position: absolute;
-    bottom: 16%;
-    right: 43%;
+    bottom: 26%;
+    right: -1%;
     color: #4d71d9;
 }
 
@@ -212,26 +179,21 @@
     font-size: 10px;
 }
 
-.downarrowimg {
-    margin-top: 210%;
-    margin-left: -55%;
-}
-
-.pentimg3 {
-    margin-top: 11%;
-    margin-left: -71%;
+.downarrow {
+    position: relative;
+    right: 80%;
+    top: 85%;
 }
 
 .pent3 {
     position: relative;
+    top: 5%;
+    left: -46%;
 }
 
 .pent3word {
     position: absolute;
-    bottom: 24%;
-    /* left: -63%; */
-    right: 43%;
-    left: -27%;
+    bottom: 27%;
     color: #4d71d9;
 }
 
@@ -239,18 +201,17 @@
     font-size: 10px;
 }
 
-.uparrowimg2 {
-    margin-top: 75%;
-    margin-left: -90%;
-}
+.uparrow2 {
+    position: relative;
+    top: 18%;
+    right: 135%;
 
-.pentimg4 {
-    margin-left: -94%;
-    margin-top: 50%
 }
 
 .pent4 {
     position: relative;
+    top: 32%;
+    left: -70%;
 }
 
 .pent4word p {
@@ -260,9 +221,7 @@
 .pent4word {
     color: #4d71d9;
     position: absolute;
-    bottom: 18%;
-    left: -42%;
-    right: 50%;
+    top: 28%;
 }
 
 .magi button {
@@ -293,7 +252,6 @@
 
 .pinpong {
     height: 350px;
-    width: 350px;
 }
 
 .cone2 {
@@ -519,7 +477,7 @@
 .condit {
     background-image: url("../Pricingpage/Rectangle12.png");
     background-size: cover;
-    padding-bottom:110px;
+    padding-bottom: 110px;
 }
 
 .condit h1 {
@@ -693,7 +651,7 @@
     .realme {
         margin: 0px;
         padding: 0px;
-        height: 230px;
+        height: 250px;
     }
 
     .pinpong {
@@ -748,60 +706,63 @@
         width: 0px;
     }
 
-    .pentimg1 {
+    .spacex {
+        height:900px !important;
+    }
+
+    .pent1 {
         position: relative;
     }
 
     .pent1word {
         position: absolute;
-        top: 26%;
-        left: 26%;
-        right: 23%;
+        top: 28%;
+        right: 28%;
+        left: 30%;
     }
 
     .pent2 {
         position: relative;
-        bottom: 77%;
-        left: 22%;
+        top: 2%;
+        left: 0%;
+    }
+
+    .pent2word {
+        position: absolute;
+        top: 29%;
+        left: 29%;
+        right: 24%;
     }
 
     .pent3 {
         position: relative;
-        top: -363%;
-        left: 37%;
+        top: 2%;
+        left: 0%;
     }
 
     .pent3word {
-        left: -20%;
-        right: 50%;
         position: absolute;
-        top: 37%;
+        top: 28%;
+        right: 32%;
+        left: 32%;
     }
-
-    .pent4 {
+    .pent4{
         position: relative;
-        bottom: 339%;
-        left: 49%;
+        top: 2%;
+        left: 0%;
     }
-
-    .pent4word {
+    .pent4word{
         position: absolute;
-        top: 59%;
-        right: 63%;
-        left: -31%;
+        top: 28%;
+        right: 32%;
+        left: 32%;
     }
 
-    .spacex {
-        height: 930px;
-    }
 
     .cardsx {
         margin-bottom: 15px;
     }
 
-    /* .pentimg3{
-    margin-top:55%;
- } */
 
     /* about page */
     .hhh,
