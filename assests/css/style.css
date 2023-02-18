@@ -107,6 +107,11 @@
     border-radius: 20px;
 }
 
+.trrade button:hover {
+    color: rgb(0, 0, 87) !important;
+    background-color: #f0f8ff !important;
+}
+
 .trrade {
     padding-top: 10%;
     padding-left: 38%;
@@ -238,6 +243,7 @@
 }
 
 .magi button:hover {
+    border: 1px solid #0000ff !important;
     color: #0000ff;
     background-color: #fff;
 }
@@ -479,6 +485,7 @@
 
 /* pricing page */
 
+
 .condit {
     background-image: url("../Pricingpage/Rectangle12.png");
     background-size: cover;
@@ -505,6 +512,12 @@
     border-radius: 0px !important;
 }
 
+.xxzz:hover {
+    background-color: #f0f8ff !important;
+    color: #00009b !important;
+    border: 1px solid #00009b !important;
+}
+
 .gasas h1 {
     color: #00009b;
 }
@@ -529,10 +542,23 @@
     border-radius: 0px !important;
 }
 
+.taa:hover {
+    color: #0000ff !important;
+    background-color: #f0f8ff !important;
+    border: 1px solid #0000ff !important;
+}
+
 .dee {
     background-color: #000000d6 !important;
     color: #f0f8ff !important;
     border-radius: 0px !important;
+}
+
+.dee:hover {
+    color: #000000 !important;
+    background-color: #f0f8ff !important;
+    border: 1px solid #000 !important;
+
 }
 
 .ig1a {
@@ -574,12 +600,23 @@
     padding-right: 10px;
 }
 
+.gtta:hover {
+    color: #00009b !important;
+    background-color: #f0f8ff !important;
+    border: 1px solid #00009b !important;
+}
+
 .gtta1 {
     margin-top: 10px;
     background-color: #f0f8ff !important;
     color: #00009b !important;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.gtta1:hover {
+    background-color: #00009b !important;
+    color: #f0f8ff !important;
 }
 
 .cardtwo {
@@ -646,15 +683,276 @@
     padding-right: 10px;
 }
 
+.airam button:hover {
+    background-color: #f0f8ff !important;
+    color: #00009b !important;
+    border: 1px solid #00009b !important;
+}
+
 .cone4a {
-    height:30px;
+    height: 25px;
     float: right;
 }
 
 .cone2a {
-    height:50px;
+    height: 45px;
     float: right;
+    position: relative;
+    right: 1%;
 }
+
+.rolex {
+    background-image: url("../Homepage/Rectangle13.png");
+    background-size: cover;
+    height: 520px;
+}
+
+.sk {
+    margin-left: 35px;
+    margin-top: 95px;
+}
+
+.sk h1 {
+    color: #f0f8ff;
+}
+
+.sk p {
+    color: #f0f8ff;
+}
+
+.post {
+    margin-top: 25px;
+    height: 350px;
+}
+
+.cone4a1 {
+    height: 25px;
+    float: right;
+    position: relative;
+    right: 10%;
+}
+
+.thani h1 {
+    color: #00009b;
+}
+
+.adaa {
+    padding-left: 95px;
+}
+
+.firbxs,
+.secbxs,
+.thibxs {
+    color: aliceblue;
+    height: 95px;
+    width: 394px;
+    position: relative;
+    left: 26%;
+    background-color: #4d71d9;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.firbxsh,
+.secbxsh,
+.thibxsh {
+    color: aliceblue;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.firbxsp,
+.secbxsp,
+.thibxsp {
+    font-size: 12px;
+    color: gainsboro;
+    margin-top: 5px;
+    padding-left: 22px;
+}
+
+.arrbx {
+    background-color: #00009b;
+    height: 95px;
+    position: relative;
+    right:82%;
+    width: 100px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#wv {
+    margin-top: 35%;
+}
+
+.lap {
+    margin-top:25px;
+    height: 425px;
+}
+.cone2b{
+    height:35px;
+    transform: rotate(120deg);
+}
+.cirhalfa{
+    float:right;
+    height:50px;
+}
+.traa{color: #00009b;}
+.starr2{
+    height:450px;
+    position: relative;
+}
+.ones{
+    color: #00009b;
+    position: absolute;
+    top: 663%;
+    left: 54%;
+}
+.onesp{
+    color: #f0f8ff;
+    position: absolute;
+    top: 662%;
+    left: 58%;
+}
+.twos{
+    color: #4d71d9;
+    position: absolute;
+    top: 688%;
+    left:58.5%;
+}
+.twosp{
+    color: #f0f8ff;
+    position: absolute;
+    top: 686%;
+    left: 63%;
+}
+.thirs{
+    color: #00009b;
+    position: absolute;
+    top: 712%;
+    left:58.5%;
+}
+.thirsp{
+    color: #f0f8ff;
+    position: absolute;
+    top: 712%;
+    left:62.5%;
+}
+.fours{
+    color: #4d71d9;
+    position: absolute;
+    top: 737%;
+    left: 53.5%;
+}
+.foursp{
+    color: #f0f8ff;
+    position: absolute;
+    top: 736%;
+    left: 58.5%;
+}
+.ponepo{
+    padding-top:20px;
+    padding-bottom:40px;
+    background-color: #4d71d9;
+}
+.ponepo h1{
+    padding-top:20px;
+    padding-bottom:20px;
+    color: #f0f8ff;
+}
+.ponepo b{color: #00009b;}
+.kaka{
+    height:160px;
+    position: relative;
+}
+.boxer{
+    background-color: #00009b!important;
+    color: #f0f8ff!important;
+}
+.ddss{
+    width:320px;
+}
+/* market page */
+.megaa{
+    height:520px;
+    background-image:url("../Pricingpage/Rectangle12.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.linee{
+    height:2px;
+    width:95%;
+    background-color: #00009b;
+}
+.figoo h5{
+    color: #00009b;
+}
+.jj{
+    font-size:11px;
+}
+.bbs{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    margin-top:15%;
+    padding-left:10%;
+    padding-right:10%;
+}
+.bbs h3{color: #00009b;}
+.fa-check{
+    color: #00009b;
+}
+.bi{
+    padding-left:65px;
+    padding-right:65px ;
+    background-color:#4d71d9!important;
+    color:#f0f8ff!important;
+}
+.bi:hover{
+    background-color:#f0f8ff!important;
+    color: #4d71d9!important;
+    border:1px solid #4d71d9!important;
+}
+.mla{
+    margin-top:50px;
+}
+.mp{color: #00009b;}
+.vecx{
+    height:100px;
+}
+.ors{
+    background-color: #00009b!important;
+    color: #f0f8ff!important;
+    border-radius:20px!important;
+    padding-left:15px!important;
+    padding-right:15px!important;
+}
+.bbsd{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+.hjj{
+    color: #00009b;
+}
+.jd input{
+    width: 370px;
+}
+.jd p{color: #00009b;}
+.jd button{
+    border-radius:20px;
+    align-items: center;
+    background-color: #00009b!important;
+    color: #f0f8ff!important;
+    padding-left:45%!important;
+    padding-right:45%!important;
+}
+.hmg h1{color: #00009b;}
+.phnn{
+    height:350px;
+}
+.mgm{
+    padding-top:22%;
+}
+.spd{
+    color: #00009b;
+}
+.clrrow td{color:#4d71d9;}
 
 
 
@@ -664,6 +962,9 @@
 
 
 @media (max-width: 540px) {
+    .navss{
+        margin-left:10%!important;
+    }
     .lss {
         margin: 0px;
         padding: 0px;
@@ -845,6 +1146,11 @@
         width: 0px;
     }
 
+    .cone4a1,.cone2b,.cirhalfa{
+        height: 0px;
+        width: 0px;
+    }
+
     /*pricing  page  */
     .gr166 {
         position: relative;
@@ -854,8 +1160,78 @@
         position: relative;
     }
 
-
-
+    .nen {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
 
     /* paltform page */
+    .grp161 {
+        height: 275px !important;
+    }
+
+    .mean {
+        height: 200px;
+    }
+
+    .maas {
+        height: 575px !important;
+    }
+
+    .ttg {
+        margin-left: 25%;
+    }
+
+    .chilla {
+        margin-top: 10% !important;
+    }
+
+    .megam {
+        margin-top: 15px !important;
+    }
+
+    .post {
+        height: 200px;
+    }
+
+    .firbxs,.secbxs,.thibxs{
+        position: relative;
+        left: 0;
+        width: 253px;
+    }
+    .r15{
+        margin-top:-5%;
+    }
+    .firbxsp,.secbxsp,.thibxsp{font-size:8px;}
+
+    .arrbx {
+        position: relative;
+        left: 72%;
+        bottom: 100%;
+    }
+    .lap{
+        height:350px!important;
+    }
+    .starr2{
+        height:170px!important;
+    }
+    .ones{
+        font-size:18px;
+        position: absolute;
+        top: 659.5%;
+        left: 57.5%;
+    }
+    .kaka{
+        height:0px;
+        width:0px;
+    }
+    /* market page */
+    .bbsd{
+        margin-left:8%;
+    }
+    .dnt{
+        display: none!important;
+    }
+   
+  
 }
