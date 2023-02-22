@@ -1283,11 +1283,13 @@
     }
 
     .bigbx {
+        height:110px;
+        width:90%;
         padding: 0px !important;
     }
 
     .mdms {
-        margin-top: 95% !important;
+        margin-top:35% !important;
     }
 
     .lap {
@@ -1301,54 +1303,53 @@
     .ones {
         font-size: 18px;
         position: absolute;
-        top: 630%;
+        top: 614%;
         left: 57%;
     }
 
     .onesp {
         font-size: 7px;
         position: absolute;
-        top: 630%;
+        top: 614%;
         left: 64%;
     }
 
     .twos {
         font-size: 18px;
         position: absolute;
-        top: 636.5%;
+        top: 620.5%;
         left: 64%;
     }
     .twosp{
         width: 96px;
     font-size: 7px;
     position: absolute;
-    top: 636.5%;
+    top: 620.5%;
     left: 71%;
-}
     }
     .thirs{
         font-size: 18px;
         position: absolute;
-        top: 642.5%;
+        top: 627%;
         left: 64%;
     }
     .thirsp{
         width: 96px;
     font-size: 7px;
     position: absolute;
-    top: 642.5%;
+    top: 627%;
     left: 71%;
     }
     .fours{
         font-size: 18px;
         position: absolute;
-        top: 649%;
+        top: 633.5%;
         left: 57%;
     }
     .foursp{
         font-size: 7px;
         position: absolute;
-        top: 649.5%;
+        top: 633.5%;
         left: 64%;
     }
 
@@ -1364,6 +1365,9 @@
 
     .dnt {
         display: none !important;
+    }
+    .dill{
+        overflow-x: scroll!important;
     }
 
 
