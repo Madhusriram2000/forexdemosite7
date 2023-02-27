@@ -528,18 +528,19 @@
 }
 
 /* pricing page */
+
+.cirhalf3{
+    height:65px;
+    float: right;
+    position: relative;
+    top: -180%;
+    right:-7%;
+}
 .cone2i{
     height:40px;
     position: relative;
-    left: -7%;
-    bottom: 140%;
-}
-.cirhalf3{
-    height: 65px;
-    float:right;
-    position: relative;
-    top: -180%;
-    right: -7%;
+    left:-7%;
+    bottom:140%;
 }
 
 
@@ -1053,9 +1054,19 @@
 }
 
 .carousel-indicators {
-    height:20px;
-    width:20px;
-    border-radius:50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
 }
 
 .carousel-indicators .active {
@@ -1399,7 +1410,7 @@
 
     .cone4a1,
     .cone2b,
-    .cirhalfa,.cirhalf3,.cone2i{
+    .cirhalfa,.cirhalf3,.cone2i {
         height: 0px;
         width: 0px;
     }
