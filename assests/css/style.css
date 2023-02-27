@@ -469,8 +469,14 @@
 }
 
 #b1 {
-    height: 25px;
-    width: 25px;
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+}
+#b1.active{
+    margin-top: -6px;
+    height:25px;
+    width:25px;
     border-radius: 50%;
 }
 
@@ -1308,7 +1314,7 @@
 
     .carousel-indicators {
         position: absolute;
-        top: 74%;
+        top: 75%;
     }
 
     .spacex {
