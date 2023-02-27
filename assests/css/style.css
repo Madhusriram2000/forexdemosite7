@@ -407,6 +407,7 @@
 
 /* about page */
 
+
 .abbtrow h1 {
     color: #00009b;
 }
@@ -489,6 +490,9 @@
 
 .adds p {
     color: #fff;
+}
+.add,.mail,.num{
+    margin-left:25%;
 }
 
 .mail,
