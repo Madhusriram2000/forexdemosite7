@@ -909,14 +909,14 @@
     background-color: #00009b;
 }
 
-.figoo h5 {
+.figoo{
     color: #00009b;
 }
 .figoo h5:hover{
     color:#808080!important;
 }
 .linee:hover{
-    color:#808080!important;
+   background-color:#808080!important;
 }
 .markant:hover{
     color:#808080!important;
@@ -924,7 +924,6 @@
 .markant2:hover{
     color:#808080 !important;
 }
-
 
 .jj {
     font-size: 11px;
@@ -1083,14 +1082,40 @@
     background-color: #2727bb !important;
 }
 
-.dotss {
-    background-image: url("../Platformpage/Group161451.png");
-    background-repeat: no-repeat;
-    height: 650px;
-    background-size: contain;
-    position: relative;
+.lss{
+    padding-top: 15%;
 }
-
+.mmaa,.mmaa2{
+    width:80%!important;
+}
+.mmaa2{
+   margin-left:19%;
+}
+.hmg1a{
+    margin-top:10%!important;
+}
+.chilla p{
+    font-size:22px;
+}
+.ppk{
+    position: relative;
+    top:12%;
+    left:60%;
+}
+.ppk2{
+    position: relative;
+    top:12%;
+    right:60%;
+}
+@media (min-width: 1280px) { 
+    .dotss {
+        background-image: url("../Platformpage/Group161451.png");
+        background-repeat: no-repeat;
+        height: 650px;
+        background-size: contain;
+        position: relative;
+    }
+    
 .ones {
     color: #00009b;
     font-size: 50px;
@@ -1099,7 +1124,6 @@
     left: 56%;
 
 }
-
 .onesp {
     color: #f0f8ff;
     font-size: 22px;
@@ -1150,39 +1174,7 @@
     top:81%;
     left:63%;
 }
-.lss{
-    padding-top: 15%;
 }
-.mmaa,.mmaa2{
-    width:80%!important;
-}
-.mmaa2{
-   margin-left:19%;
-}
-.hmg1a{
-    margin-top:10%!important;
-}
-.chilla p{
-    font-size:22px;
-}
-.ppk{
-    position: relative;
-    top:12%;
-    left:60%;
-}
-.ppk2{
-    position: relative;
-    top:12%;
-    right:60%;
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -1509,8 +1501,11 @@
     }
 
     .dotss {
+        background-image: url("../Platformpage/Group161451.png");
+        background-repeat: no-repeat;
         height: 300px !important;
         position: relative !important;
+        background-size: contain;
     }
 
     .ones {
