@@ -28,7 +28,7 @@
 
 #navsa {
     background-color: #4d71d9;
-    line-height: 18px;
+    line-height:22px;
     color: #fff;
 }
 
@@ -43,6 +43,8 @@
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 6px;
     line-height: 8px;
 }
 
@@ -300,8 +302,8 @@
 
 .vecc1 {
     position: absolute;
-    left: 41%;
-    top: 15%;
+    left: 37%;
+    top: 14%;
 }
 
 .cirle2 {
@@ -310,8 +312,8 @@
 
 .vecc2 {
     position: absolute;
-    left: 44.5%;
-    top: 17%;
+    left: 41.5%;
+    top: 15.5%;
 }
 
 .cirle3 {
@@ -320,8 +322,8 @@
 
 .vecc3 {
     position: absolute;
-    left: 43.5%;
-    top: 17.5%;
+    left: 39.5%;
+    top: 15%;
 }
 
 .par1 h6 {
@@ -1086,10 +1088,11 @@
     padding-top: 15%;
 }
 .mmaa,.mmaa2{
-    width:80%!important;
+    width:95%!important;
+    height:50px;
 }
 .mmaa2{
-   margin-left:19%;
+    margin-left:16px;
 }
 .hmg1a{
     margin-top:10%!important;
@@ -1210,8 +1213,11 @@
     .sect-2 {
         background-position: top !important;
     }
+    .mmaa,.mmaa2{
+        width:100%!important;
+    }
     .mmaa2{
-        margin-left: -20%;
+        margin-left:0%;
      }
 
     .trrade {
